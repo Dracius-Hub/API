@@ -1,0 +1,27 @@
+site_name: Dragon Ball Ascendance API
+nav:
+    - Home: index.md
+    - Tasks: Tasks.md
+    - Services:    
+        - AuraService: AuraService.md    
+        - ModeService: ModeService.md
+        - PlayerDataService: PlayerDataService.md
+        - QuestService: QuestService.md
+        
+    - Managers:
+        - AuraManager: AuraManager.md
+        - QuestManager: QuestManager.md
+        
+    - Functions:
+        - color3ToSequence: color3ToSequence.md
+    
+extra_css:
+    - css/extra.css
+
+theme:
+    name: material
+    icon:
+        logo: material/library
+    palette: 
+        primary: cyan
+        accent: blue
